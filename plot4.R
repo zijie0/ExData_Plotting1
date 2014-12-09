@@ -28,7 +28,7 @@ with(sub_data, {
          legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
          cex=0.9)
   # Graph 4
-  plot(Global_reactive_power~Datetime, type="l", ylab="Global Rective Power")
+  plot(Global_reactive_power~Datetime, type="l", ylab="Global_rective_power")
 })
 
 # Save to file
